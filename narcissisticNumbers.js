@@ -9,7 +9,7 @@ Write a method is_narcissistic(i) (in Haskell: isNarcissistic :: Integer -> Bool
 */
 
 const isNarcissistic = (n) => {
-  //your code here
+  //   assign a variable with zero to act as a counter
   var num = 0;
   var numbers = String(n);
   for (let i of numbers) {
