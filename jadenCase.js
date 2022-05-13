@@ -1,3 +1,5 @@
+// jaden case
+
 String.prototype.toJadenCase = function () {
   //   assign 'this' keyword to a variable and split string into an array
   var result = this.split(" ");
