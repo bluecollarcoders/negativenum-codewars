@@ -10,7 +10,7 @@ b = 4
 */
 
 const between = (a, b) => {
-  // create an empty array
+  // create an empty array to store
   // loop through a and b parameters
   // push the result to new array
   var holder = [];
