@@ -6,14 +6,11 @@ const noSpace = (x) => {
 // refactor
 const noSpaces = (x) => {
   // assign a variable with empty string
-  var string = "";
-
-  // iterate over the x parameter
-  for (let i = 0; i < x.length; i++) {
-    // condition if x isnt equal to empty string sum string and x[i]
-    if (x[i] !== " ") {
-      string += x[i];
+  var result = "";
+  for (var index = 0; index < x.length; index++) {
+    if (x[index] !== " ") {
+      result += x[index];
     }
-    return string;
   }
+  return result;
 };
