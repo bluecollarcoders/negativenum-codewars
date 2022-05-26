@@ -40,7 +40,7 @@ const arrayDiff = (a, b) => {
   /*
     refactor 
     let difference = a.filter(x => !b.includes(x));
-    return difference
+    return difference this is more of an elegant approach
     
     */
 };
