@@ -30,4 +30,13 @@ const spinWords = (string) => {
     */
 };
 
+const players = {
+  "player 1": {
+    score: 0,
+  },
+  "player 2": {
+    score: 0,
+  },
+};
+
 console.log(spinWords("Hey little soldier"));
