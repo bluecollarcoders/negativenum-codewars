@@ -10,7 +10,7 @@ How do I acheive this?
 create 2 variables 
 loop over one and find the min 
 then return results
-
+get better at  fundamentals
 */
 
 const minMax = (arr) => {
