@@ -9,6 +9,7 @@ loop over the parameter - 1 to get the last index
 make the condition if the parameter is greater than or equal to 0 
 decrement over the loop 
 then push items into the array
+kata 8kyu
 */
 const reverseList = (list) => {
   var newStore = [];
