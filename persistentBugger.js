@@ -5,6 +5,7 @@ testcase is 39 >> 3
 I would assign a variable with zero 
 I would loop over the parameter num
 modulus / num 
+// kata 6kyu
 */
 
 const persistence = (num) => {
