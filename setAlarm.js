@@ -7,6 +7,8 @@ setAlarm(true, true) -> false
 setAlarm(false, true) -> false
 setAlarm(false, false) -> false
 setAlarm(true, false) -> true
+
+kata 8kyu
 */
 const setAlarm = (employed, vacation) => {
   if (employed == true && !vacation == true) {
