@@ -16,3 +16,14 @@ String str will never be null.
 const replaceDots = (str) => {
   return str.replace(/\./g, "-");
 };
+
+// refactored
+
+const replaceDots2 = (str) => {
+  var newString = "";
+
+  for (let i = 0; i < str.length; i++) {
+    newString += str[i] !== "." ? str[i] : "-";
+  }
+  return newString;
+};
