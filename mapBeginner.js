@@ -21,3 +21,11 @@ const maps = (x) => {
 
   return newArray;
 };
+
+console.log(maps([1, 2, 3]));
+
+const mapsTwo = (x) => {
+  return x.map((n) => n * 2);
+};
+
+console.log(mapsTwo([4, 5, 6]));
