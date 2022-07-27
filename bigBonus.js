@@ -11,7 +11,7 @@ Return the total figure the individual will receive as a string prefixed with "Â
 */
 
 const bonusTime = (salary, bonus) => {
-  if (salary === true) {
+  if (bonus === true) {
     salary = salary * 10;
     return `Â£${salary}`;
   } else {
