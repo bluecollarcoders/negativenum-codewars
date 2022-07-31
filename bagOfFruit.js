@@ -37,3 +37,25 @@ const removeRotten = (bagOfFruits) => {
 console.log(
   removeRotten(["apple", "rottenBanana", "kiwi", "melone", "orange"])
 );
+
+/*
+PHP solution
+
+function removeRotten($fruitBasket) {
+  
+  if($fruitBasket == []) {
+    return [];
+  }
+  
+  $goodFruit = [];
+  
+  foreach($fruitBasket as $fruit) {
+    $goodFruit[] = strtolower(str_replace("rotten", "",$fruit));
+  }
+  return $goodFruit;
+  
+}
+
+
+
+*/
