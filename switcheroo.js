@@ -17,7 +17,7 @@ then I would loop over the parameter
 then use a conditional statement 
 if the parameter[i] === 
 
-
+kyu 7 
 */
 
 const switcheroo = (x) => {
