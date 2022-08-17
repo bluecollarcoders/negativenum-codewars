@@ -16,3 +16,17 @@ text after  = "zzz"
 
 
 */ 
+
+const contamination = (text,char) => {
+    if(text.length === '' || char === '') {
+        return '';
+    }
+
+    var newString = '';
+
+    for(let i = 0; i < text.length; i++) {
+        newString += char;
+    }
+
+    return newString;
+}
