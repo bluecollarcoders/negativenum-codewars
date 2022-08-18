@@ -30,3 +30,5 @@ const contamination = (text,char) => {
 
     return newString;
 }
+
+console.log(contamination('abc','z'))
