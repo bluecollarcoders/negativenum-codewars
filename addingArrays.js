@@ -52,3 +52,12 @@ const arrAdder = (arr) => {
   }
   return newString.trim();
 };
+
+console.log(
+  arrAdder([
+    ["J", "L", "L", "M"],
+    ["u", "i", "i", "a"],
+    ["s", "v", "f", "n"],
+    ["t", "e", "e", ""],
+  ])
+);
