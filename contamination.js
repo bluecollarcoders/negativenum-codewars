@@ -13,22 +13,22 @@ text before = "abc"
 character   = "z"
 text after  = "zzz"
 
+kata 7kyu
 
+*/
 
-*/ 
+const contamination = (text, char) => {
+  if (text.length === "" || char === "") {
+    return "";
+  }
 
-const contamination = (text,char) => {
-    if(text.length === '' || char === '') {
-        return '';
-    }
+  var newString = "";
 
-    var newString = '';
+  for (let i = 0; i < text.length; i++) {
+    newString += char;
+  }
 
-    for(let i = 0; i < text.length; i++) {
-        newString += char;
-    }
+  return newString;
+};
 
-    return newString;
-}
-
-console.log(contamination('abc','z'))
+console.log(contamination("abc", "z"));
